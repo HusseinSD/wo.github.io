@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WOW</title>
+  <link rel="stylesheet" href="CSS/animate.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="back">
+      <h1 class="head wow shake">WOW is aowsome !</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <br><img class="log wow zoomIn"
+       src="photo/red.png"  >
+      <img class="log  wow tada" src="photo/green.png"
+      data-wow-iteration="infinite" ;
+       >
+      <img class="log wow zoomIn" src="photo/black.png"  >
+    </div>
+    <div class="br"></div>
+    <div class="br-white">
+      <!-- circle -->
+      <div class="circle red"></div>
+      <div class="circle green wow tada"
+      data-wow-iteration="infinite"
+
+      ></div>
+      <div class="circle blue wow flipInX"
+        onclick="hide()"
+        data-wow-iteration="infinite"
+        
+      ></div>
+
+<!--
+      <script type="text/javascript">
+        var c = document.getElementsByClassName('blue') ;
+        function hide() {
+        c[0].classList.toggle("wobble") ;
+        }
+      </script> -->
+
+
+
+      <div class="circle orange"></div>
+      <br>
+      <!-- square -->
+      <div class="square Sred wow fadeInLeft"></div>
+      <div class="square Sblue wow flipInX"></div>
+      <div class="square Sgreen wow flipInY"></div>
+      <div class="square Syellow wow zoomIn"></div>
+
+    </div>
+    <div class="br"></div>
+    <div class="br"></div>
+    <div class="br"></div>
+    <div class="br-white">
+      <img class="photo wow bounceInLeft" src="photo/cat1.jpg"
+      data-wow-duration="2s" >
+      <img class="photo wow zoomIn"
+        data-wow-duration="2s"
+       src="photo/cat2.jpg" >
+      <img class="photo wow bounceInRight"
+      data-wow-duration="2s"
+      src="photo/cat3.jpg" >
+      <br>
+      <img class="photo wow jackInTheBox" src="photo/dog1.jpg" >
+      <img class="photo wow jackInTheBox" src="photo/dog3.jpg" >
+      <img class="photo wow jackInTheBox" src="photo/dog2.jpg" >
+
+    </div>
+    <div class="br"></div>
+
+
+  </div>
+</body>
+<script src="JS/wow.min.js"></script>
+<script>
+
+new WOW().init();
+</script>
+</html>
